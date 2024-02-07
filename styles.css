@@ -1,0 +1,237 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.header{
+    min-height: 100vh;
+    background-image: url(map.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+#positioned-image {
+    position: fixed;
+    top: 35%; /* adjust the top position */
+    left: 20%; /* adjust the left position */
+}
+
+#positioned-image-2 {
+    position: absolute;
+    top: 45%; /* adjust the top position */
+    left: 26%; /* adjust the left position */
+}
+
+#positioned-image-3 {
+    position: absolute;
+    top: 30%; /* adjust the top position */
+    left: 77%; /* adjust the left position */
+}
+
+.nav-top{
+    height: 68px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-left: 16px;
+}
+
+.nav-start{
+    padding-left: 40px;
+}
+
+.nav-center{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-end{
+    padding-right: 40px;
+}
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-item{
+    margin: 5px;
+    background-color: #004846;
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+.icons-item{
+    padding-left: 10px;
+}
+
+.homepage{
+    width: 1920px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-lvc{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-lvc{
+    background-color: #15191E;
+    width: 100vw;
+    height: 100vh;
+    ;
+}
+
+.breadcrumb-lvc{
+    display: flex;
+}
+
+.breadcrumb-lvc-text-left{
+    color: #4F5F6E;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 6px;
+}
+
+.breadcrumb-lvc-text-right{
+    color: #F9FAFB;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title-lvc{
+
+    padding: 8px 0px;
+}
+
+.title-lvc-text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    text-align: left;
+}
+.desc-text{
+    color: var(--Dark-Blue-Grays-900, #F9FAFB);
+    /* Paragraph/Small/Regular */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.235px;
+}
+
+.main-box{
+    display: flex;
+    border-radius: 8px;
+    background: var(--Dark-Blue-Grays-100, #262D36);
+    height: 700px;
+    width: 95vw;
+}   
+
+.pm-gas-box{
+    border-radius: 4px;
+    border: 1px solid var(--Dark-Primary-400, #00A19C);
+    background: rgba(0, 120, 116, 0.10);
+    box-shadow: 0px 1px 6px 0px #6AC2BE, 0px 0px 0px 1px rgba(0, 120, 116, 0.50);
+    display: flex;
+    width: 150px;
+    height: 187px;
+    padding: 12px 4px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.inv-box{
+    display: flex;
+    width: 150px;
+    height: 187px;
+    padding: 12px 4px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.pm-gas-box-inside{
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 0 0;
+    margin-left: 14px;
+}
+
+.jda-box{
+    margin: 18px 21px 8px 13px;
+    display: flex;
+    width: 115px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--Dark-Primary-400, #00A19C);
+    background: var(--Dark-Blue-Grays-50, #15191E);
+    padding: 12px 4px;
+}
+
+.jda-text{
+    color: var(--Dark-Primary-600, #9FDEDB);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+
+.pm-bottom-box{
+    border-radius: 4px;
+    border: 0.5px solid var(--Dark-Info-400, #005CB9);
+    background: var(--Dark-Blue-Grays-100, #262D36);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(54, 133, 211, 0.30);
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    margin: 30px 21px 14px 14px;
+}
+
+.arrow-14{
+    margin-left: -22px;
+    margin-top: 120px;
+}
+
+.feedgas-jda-ttm{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 198px;
+}
